@@ -8,4 +8,18 @@
 
 ![im01](./01.jpg)
 
-# tensorflow
+
+
+* Ranks
+
+
+
+![im02](./02.jpg)
+
+* Shapes
+
+![im03](./03.jpg)
+
+* Types
+
+![im04](./04.jpg)
