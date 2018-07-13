@@ -26,7 +26,11 @@
 
 
 
-### 여러개의 데이터 파일 이용할 때
+
+
+
+
+## 여러개의 데이터 파일 이용할 때
 
 
 
@@ -42,9 +46,29 @@
 
 
 
+## 함수
+
+ ```python
+# 계산해라
+sess.run()
+
+# 값을 넣어줄 것
+tf.placeholder(tf.float32, shape=[None, 3])
+
+# 값을 넣을 때, 반드시 집합 형태
+feed_dict={X: x_data, y: y_data}
+
+# matrix 곱 계산
+tf.matmul(X, W)
+
+
+ ```
 
 
 
+
+
+## and others
 
 tf.variable : tensorflow가 사용하는 variable, 즉 trainable한 variable, train 된 이후 계속 변경 되는 값
 
@@ -66,43 +90,11 @@ b = tf.Variable(tf.random_normal([1]), name='bias')에서 1은 나가는 값.
 
 
 
-* 데이터 reshape 할 때, one_hot 적용하면서 햇었음. lab06-2 참조
+- 데이터 reshape 할 때, one_hot 적용하면서 햇었음. lab06-2 참조
 
 
 
-![08im](./08.jpg)
 
 
-
-rank : [] 개수
-
-
-
-shape : rank 개수만큼 숫자 있다. 가장 안쪽부터 오른쪽에 개수 센다 ( , , , ) -> (1, 2, 3, 4)
-
-
-
-axis : 가장 안쪽에 있는 것이 axis=3 또는 axis=-1(왜냐하면 rank가 4이니까 0 ~ 3). 가장 바깥쪽에 있는 것은 axis=0
-
-
-
-### 함수
-
- ```python
-# 계산해라
-sess.run()
-
-# 값을 넣어줄 것
-tf.placeholder(tf.float32, shape=[None, 3])
-
-# 값을 넣을 때, 반드시 집합 형태
-feed_dict={X: x_data, y: y_data}
-
-# matrix 곱 계산
-tf.matmul(X, W)
-
-
- ```
-
-
+[manipulation](./manipulation)
 
