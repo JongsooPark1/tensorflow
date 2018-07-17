@@ -96,5 +96,17 @@ b = tf.Variable(tf.random_normal([1]), name='bias')에서 1은 나가는 값.
 
 
 
+
+
+
+
+![08](./08.jpg)
+
+
+
+일반적으로 adamOptimizer 많이 쓴다
+
+
+
 [manipulation](./manipulation)
 
