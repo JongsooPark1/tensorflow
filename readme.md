@@ -2,13 +2,25 @@
 
 > 머신러닝 오픈소스 라이브러리
 >
-> Tensorflow is an open source software library for numerical computation using data flow graphs.
+> Tensorflow is an open source software library for numerical computation using data flow graphs
 
 
+
+
+
+## how tensorFlow works
 
 
 
 ![im01](./01.jpg)
+
+
+
+
+
+
+
+## tensor의 요소
 
 
 
@@ -18,9 +30,17 @@
 
 ![im02](./02.jpg)
 
+
+
+
+
 * Shapes
 
 ![im03](./03.jpg)
+
+
+
+
 
 * Types
 
