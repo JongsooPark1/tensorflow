@@ -50,6 +50,10 @@
 
 
 
+[manipulation](./manipulation)
+
+
+
 
 
 ## 여러개의 데이터 파일 이용할 때
@@ -65,6 +69,10 @@
 ![im07](./07.jpg)
 
 
+
+
+
+![ddd](./ddd.jpg)
 
 
 
@@ -130,5 +138,4 @@ b = tf.Variable(tf.random_normal([1]), name='bias')에서 1은 나가는 값.
 
 
 
-[manipulation](./manipulation)
-
+[tensorBoard](./tensorBoard)
