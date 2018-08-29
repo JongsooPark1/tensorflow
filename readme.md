@@ -138,4 +138,4 @@ b = tf.Variable(tf.random_normal([1]), name='bias')에서 1은 나가는 값.
 
 
 
-[tensorBoard](./tensorBoard)
+[tensorboard](./tensorboard)
